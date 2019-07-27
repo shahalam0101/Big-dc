@@ -1,0 +1,308 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.se-color{
+	color: #EDC18A;
+}
+.se-color-dark{
+	color: #AB8150;
+}
+.color-gre{
+	color: #36683E;
+}
+.color-blue{
+	color: #1F5286;
+}
+
+					/*NAVBAR*/
+
+.header-section{
+	overflow: hidden;
+}
+.navbar-nav li a{
+	color: #fff;
+}
+.se-color li a {
+	color: #EDC18A;
+}
+.account{
+	border: 1px solid #EDC18A;
+	border-radius: 21px;
+}
+.search i{
+	font-size: 18px;
+	font-weight: 700;
+	color: #243F28;
+	background: #EDC18A;
+	padding: 15px;
+	border-radius: 100%;
+}
+.languag{
+	padding: 15px;
+}
+
+					/*HERO*/
+
+#hero_section{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../img/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    display: block;
+    overflow: hidden;
+}
+.vertical-align{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#hero_section pre{
+	color: #fff;
+	font-size: 18px;
+}
+.live_account{
+	color: #54493C;
+	font-size: 16px;
+	background: #EDC18A;
+	border: none;
+	border-radius: 21px;
+	padding: 10px 30px;
+	margin-right: 30px;
+}
+.demo_account{
+	color: #54493C;
+	font-size: 16px;
+	background: #ADC3D9;
+	border: none;
+	border-radius: 21px;
+	padding: 10px 30px;
+}
+.live_account:hover, .demo_account:hover{
+	cursor: pointer;
+}
+
+					/*FEATURES*/
+
+.vertical-align-feature{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(50%) translateY(-50%);
+}
+.feature-video{
+	color: #fff;
+	background: #36683E;
+	padding: 10px 25px;
+	border-radius: 21px;
+	margin-right: 25px;
+}
+.feature-video:hover{
+	cursor: pointer;
+}
+
+					/*EXCHANGE*/
+
+
+.refresh-btn .fa-refresh{
+	background: #36683E;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+#exchange{
+	background: #ddd;
+	
+}
+#exchange img {
+    width: 50%;
+    height: 500px;
+    border-radius: 53px;
+}
+.exchange-btn{
+	margin-top: 50px;
+}
+.exchange-btn a{
+	color: #36683E;
+	font-weight: 700;
+	background: #B8CEBB;
+	border: none;
+	padding: 10px 25px;
+	border-radius: 21px;
+}
+
+					/*BACK ACCOUNT*/
+.fa-home{
+	font-size: 20px;
+	color: #1F5286;
+}
+.account-back-btn{
+	margin: 100px 0;
+}
+#account-back img{
+	width: 50%;
+    height: 500px;
+    border-radius: 153px;
+}
+
+/*TEAMS SECTION*/
+
+.teams-video{
+	color: #fff;
+	background: #36683E;
+	padding: 25px 15px;
+	border-radius: 21px;
+}
+.video, .video-card {
+    width: 45%;
+    min-height: 200px;
+    margin: 0 auto;
+    background: #B8CEBB;
+}
+.email-box{
+	border: none;
+	padding: 10px 30px;
+	border-radius: 20px 0px 0px 20px;
+}
+.email-btn{
+	color: #ffffff;
+	border: none;
+	background: #3cad4c;
+	padding: 10px 30px;
+	border-radius: 0px 20px 20px 0px;
+}
+.email-btn:hover{
+	color: #e4e1e1;
+	background: #194A20;
+	cursor: pointer;
+}
+.input-center{
+	margin-left: 15%;
+}
+
+/*FOOTER SECTION*/
+
+footer{
+	margin-top: 50px;
+}
+.footer{
+	background: #2E4358;
+}
+.footer-social{
+	font-size: 20px;
+	color: #2E4358;
+	background: #EDC18A;
+	padding: 30px 15px;
+	border-radius: 21px;
+	margin-top: 10px;
+	margin-right: 25px;
+
+}
+
+
+
+
+
+
+
+/*FEATURE SECTION*/
+.number-sec{
+	width: 95%;
+	margin: 0 auto;
+}
+.wrapper {
+	position: absolute;
+    width: 65%;
+    margin: 0 auto;
+    left: 22%;
+    top: 315px;
+}
+
+/*SECTION 1*/
+
+
+.versition-contant{
+	margin-top: 50px;
+}
+
+
+.section1 img{
+	position: relative;
+}
+.section1 .number {
+    position: absolute;
+    color: #D5E2D6;
+    font-size: 166px;
+    left: 180px;
+    top: 104px;
+}
+
+.vertion-contant, .two, .three, .four{
+	margin-top: 40px;
+}
+
+/*SECTION 2*/
+.number-sec2{
+	width: 95%;
+	margin: 40% auto;
+}
+.wrapper2 {
+	position: absolute;
+    width: 65%;
+    margin: 0 auto;
+    left: 22%;
+    top: 195%;
+}
+
+.versition-contant2{
+	margin-top: 50px;
+}
+
+
+.section2 img{
+	position: relative;
+}
+.section2 .number {
+    position: absolute;
+    color: #D5E2D6;
+    font-size: 166px;
+    left: 180px;
+    top: 104px;
+}
+
+/*sectin 3*/
+
+.number-sec3{
+	width: 95%;
+	margin: 40% auto;
+}
+.wrapper3 {
+	position: absolute;
+    width: 65%;
+    margin: 0 auto;
+    left: 22%;
+    top: 340%;
+}
+
+.versition-contant3{
+	margin-top: 50px;
+}
+
+
+.section3 img{
+	position: relative;
+}
+.section3 .number {
+    position: absolute;
+    color: #D5E2D6;
+    font-size: 166px;
+    left: 180px;
+    top: 104px;
+}
+
